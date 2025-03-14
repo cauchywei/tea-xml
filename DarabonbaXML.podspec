@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = '13.0'
 
   spec.dependency 'Tea',  '~> 1.0.2'
+  spec.dependency 'SWXMLHash', '~> 7.0.2'
 
   spec.swift_version='5.6'
 end
